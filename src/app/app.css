@@ -1,0 +1,5 @@
+/* src/app/app.component.css */
+.stock-bajo {
+    color: red;
+    font-weight: bold;
+}

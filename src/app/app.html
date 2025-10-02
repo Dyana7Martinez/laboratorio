@@ -1,0 +1,9 @@
+
+<ol>
+  <li *ngFor="let product of products">
+    {{ product.name }} - Stock: 
+    <span [style.color]="product.stock <= 5 ? 'red' : 'black'" [style.font-weight]="product.stock <= 5 ? 'bold' : 'normal'">
+      {{ product.stock }}
+    </span>
+  </li>
+</ol>
